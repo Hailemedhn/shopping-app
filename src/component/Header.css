@@ -1,0 +1,112 @@
+@media screen and (min-width: 750px){
+    .headerContainer{
+        display: grid;
+        grid-template-columns: 10% 10% 70% 10%;
+        grid-template-rows: 100%;
+        gap: 5px;
+        height: 100%;
+        width: 100%;
+        border: 1px solid rgb(123, 90, 90);
+    }
+    .humberger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .humbergerLine{
+        margin-top: 5px;
+        height: 5px;
+        width: 50px;
+        background-color: black;
+    }
+    .mannyContainer{
+        display: flex;
+        align-items: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .manny{
+        width: 100%;
+    }
+    .logoContainer{
+        height: 100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .logo{
+        height: 100%;
+    }
+    .cartContainer{
+        display: flex;
+        justify-content: flex-start;
+        align-items:last baseline;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .cart{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .headerContainer{
+        display: grid;
+        grid-template-columns: 20% 20% 50% 10%;
+        grid-template-rows: 100%;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .humberger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .humbergerLine{
+        margin-top: 5px;
+        height: 5px;
+        width: 50px;
+        background-color: black;
+    }
+    .mannyContainer{
+        background-color: red;
+        display: flex;
+        align-items: flex-start;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .manny{
+        width: 100%;
+    }
+    .logoContainer{
+        height: 100%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        height: 50%;
+    }
+    .cartContainer{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        width:100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items:last baseline;
+    }
+    .cart{
+        width: 100%;
+    }
+}

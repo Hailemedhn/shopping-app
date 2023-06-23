@@ -1,0 +1,42 @@
+
+@media screen and(min-width:751px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+
+  }
+  .top{
+    border: 1px solid blue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .bottom{
+    border: 1px solid rgb(0, 166, 255);
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media screen and(max-width:750px) {
+  
+  .App {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:20% 80%;
+
+  }
+  .top{
+    border: 1px solid red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .bottom{
+    border: 1px solid rgb(0, 166, 255);
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
