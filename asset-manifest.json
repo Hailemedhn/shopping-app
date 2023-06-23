@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopping-app/static/css/main.3ba4c29d.css",
+    "main.js": "/shopping-app/static/js/main.c5cfc1c3.js",
+    "static/media/pizza.webp": "/shopping-app/static/media/pizza.9fed7c5ec056763d65f4.webp",
+    "static/media/cart.png": "/shopping-app/static/media/cart.46cf97efcbb6c34ad715.png",
+    "index.html": "/shopping-app/index.html",
+    "main.3ba4c29d.css.map": "/shopping-app/static/css/main.3ba4c29d.css.map",
+    "main.c5cfc1c3.js.map": "/shopping-app/static/js/main.c5cfc1c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba4c29d.css",
+    "static/js/main.c5cfc1c3.js"
+  ]
+}
